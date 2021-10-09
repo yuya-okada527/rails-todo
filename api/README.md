@@ -26,3 +26,10 @@ $ docker-compose exec web rails db:create
 $ docker-compose run web bundle
 $ docker-compose build
 ```
+
+## 開発
+
+### コントローラ作成
+
+- config/routes.rb を編集
+- controller を追加

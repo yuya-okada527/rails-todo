@@ -1,0 +1,5 @@
+json = {
+  id: @todo[:id],
+  name: @todo[:name],
+  status: @todo[:status]
+}
