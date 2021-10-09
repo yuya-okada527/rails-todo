@@ -1,5 +1,8 @@
 run:
 	docker-compose up -d --remove-orphans
+	docker-compose exec web rails db:create
+	docker-compose exec web rails db:migrate
+	docker-compose exec web rails db:seed
 down:
 	docker-compose down
 build:
